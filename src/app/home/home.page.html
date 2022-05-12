@@ -1,0 +1,15 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Media Streaming
+    </ion-title>
+  </ion-toolbar>
+  
+</ion-header>
+
+<ion-content [fullscreen]="true">
+ <ion-button full (click)="startVideo()" expand="block">Start video</ion-button>
+ <ion-button full (click)="startAudio()" expand="block">Start audio</ion-button>
+ <ion-button full (click)="stopAudio" color="danger" expand="block">Stop audio</ion-button>
+
+</ion-content>
